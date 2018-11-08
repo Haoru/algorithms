@@ -1,9 +1,9 @@
 Problem Analysis:
 =================
 Find The Maximum Profit
- -------------
- Say you have an array for which the ith element is the price of a given stock on day i.
-Design an algorithm to find the maximum profit. You may complete as many transactions as you like
+-------------
+Say you have an array for which the ith element is the price of a given stock on day i. Design an algorithm to find the maximum profit. You may complete as many transactions as you like.
+
 Programming Implementation:
 ==========================
 ```python
@@ -19,3 +19,6 @@ def maxProfit(prices):
 stockprices=[7,1,5,3,6,4]
 print(maxProfit(stockprices))
 ```python
+
+Summarize:
+=======
