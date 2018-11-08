@@ -9,7 +9,7 @@ Programming Implementation:
 ```python
 def maxProfit(prices):
     profit=0
-    length=len(prices)-1
+    length=len(prices)
     for i in range(0,length):
         for j in range(i+1,length):
             pri=prices[j]-prices[i]
