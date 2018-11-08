@@ -18,7 +18,8 @@ def maxProfit(prices):
     return profit
 stockprices=[7,1,5,3,6,4]
 print(maxProfit(stockprices))
-```python
+```
 
 Summarize:
 =======
+This problem must make sure that the j comes from the i.
