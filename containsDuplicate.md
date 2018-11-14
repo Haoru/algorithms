@@ -33,9 +33,9 @@ Method 3
 def containsDuplicate( nums):
     new=set(nums)
     if(len(new)==len(nums)):
-        return False
-    else:
         return True
+    else:
+        return False
 ```
 Summarize:
 =======
