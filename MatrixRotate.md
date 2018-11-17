@@ -20,5 +20,18 @@ def rotate(matrix):
     newmatrix=np.dot(art1,tunit)
     print(newmatrix)
 ```
+```python
+import numpy as np
+def rotate(matrix):
+        m = len(matrix)
+        n = len(matrix[0])
+        matrix = zip(*matrix)
+        matrix = map(list, matrix)
+        for i in range(m):
+            for j in range(int(n / 2)):  
+                matrix[i][j], matrix[i][n - j - 1] = matrix[i][n - j - 1], matrix[i][j]
+        return matrix
+```
 Summarize:
 ==========
+You take the dot of the identity matrix, and you get the flip of the matrix.
