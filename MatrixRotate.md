@@ -1,3 +1,12 @@
+Problem Analysis:
+======
+Matrix Rotate
+-------
+
+You are given an n x n 2D matrix representing an image.Rotate the image by 90 degrees (clockwise).
+
+Programming Implementation:
+================
 ```python
 import numpy as np
 def rotate(matrix):
@@ -11,3 +20,5 @@ def rotate(matrix):
     newmatrix=np.dot(art1,tunit)
     print(newmatrix)
 ```
+Summarize:
+==========
