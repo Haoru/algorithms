@@ -13,4 +13,4 @@ def reverseString(s):
 ```
 Summarize:
 ========
-This problem refers to the slice of string. The format is [start:end:step]
+This problem refers to the slice of string. The format is \[start:end:step].Extract from start to end - 1, extract one for each step character.The position/offset of the first character on the left is 0, and the position/offset of the last character on the right is -1.
